@@ -1,13 +1,12 @@
 import 'bulmaswatch/superhero/bulmaswatch.min.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import CodeSell from './components/code-sell';
+import CodeCell from './components/code-cell';
 
 const App = () => {
   return (
     <div>
-      <CodeSell />
-      <CodeSell />
+      <CodeCell />
     </div>
   );
 };
