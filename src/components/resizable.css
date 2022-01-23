@@ -10,6 +10,10 @@
   flex-direction: row;
 }
 
+.resize-vertical {
+  margin-bottom: 10px;
+}
+
 .react-resizable-handle-s {
   height: 10px;
   width: 100%;

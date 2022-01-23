@@ -52,6 +52,7 @@ const Resizable: React.FC<ResizableProps> = ({ direction, children }) => {
     };
   } else {
     resizableProps = {
+      className: 'resize-vertical',
       minConstraints: [Infinity, 24],
       maxConstraints: [Infinity, innerHeight - 10],
       width: Infinity,
