@@ -9,7 +9,7 @@ import {
 } from '../actions';
 import { CellTypes } from '../cell';
 
-export const updatecell = (id: string, content: string): UpdateCellAction => {
+export const updateCell = (id: string, content: string): UpdateCellAction => {
   return {
     type: ActionType.UPDATE_CELL,
     payload: {
@@ -19,7 +19,7 @@ export const updatecell = (id: string, content: string): UpdateCellAction => {
   };
 };
 
-export const deletCell = (id: string): DeleteCellAction => {
+export const deleteCell = (id: string): DeleteCellAction => {
   return {
     type: ActionType.DELETE_CELL,
     payload: id,
